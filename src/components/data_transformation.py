@@ -68,7 +68,7 @@ class DataTransformation:
             train_df=pd.read_csv(train_data_path)
             test_df=pd.read_csv(test_data_path)
 
-            logging.info("The train and test data hve been read from ingestion module.")
+            logging.info("The train and test data have been read from ingestion module.")
 
             logging.info("Obtaining preprocessing object")
 
